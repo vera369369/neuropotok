@@ -71,7 +71,7 @@ h1, h2, h3 {
 }
 
 .lesson-block img {
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ h1, h2, h3 {
 }
 
 .example-block img {
-    width: 100%;
+    width: 55%;
     border-radius: 10px;
 }
 
