@@ -227,8 +227,8 @@ ul {
     background-color: #e64a19;
 }
 footer {
-    margin-top: -5px; /* Поднимаем футер ближе к контенту */
-    padding-top: 5px; /* Делаем мягкий отступ сверху */
+    margin-top: -20px; /* Поднимаем футер ближе к контенту */
+    padding-top: 10px; /* Делаем мягкий отступ сверху */
 }
 .extra-btn .btn {
     margin-top: 10px; /* Уменьшаем отступ сверху */
