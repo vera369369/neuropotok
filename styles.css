@@ -233,3 +233,15 @@ footer {
 .extra-btn .btn {
     margin-top: 10px; /* Уменьшаем отступ сверху */
 }
+header {
+    background-size: contain; /* Вместо cover, чтобы не обрезало */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) { /* Для мобильных экранов */
+    header {
+        height: auto; /* Позволяет изображению адаптироваться */
+        padding-bottom: 20px; /* Добавляет отступ, если нужно */
+    }
+}
