@@ -265,3 +265,36 @@ header h1, header p, header a {
         transform: none;
     }
 }
+.example-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.example-block {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px; /* Фиксированная ширина для десктопа */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.example-block img {
+    width: 100%; /* Заполняет блок без искажений */
+    height: auto; /* Поддерживает пропорции */
+    border-radius: 10px;
+}
+
+/* Адаптация под мобильные устройства */
+@media (max-width: 768px) {
+    .example-grid {
+        flex-direction: column; /* Убираем грид, делаем в колонку */
+        align-items: center; /* Выравниваем по центру */
+    }
+
+    .example-block {
+        width: 90%; /* Даем возможность блоку адаптироваться */
+    }
+}
