@@ -235,3 +235,33 @@ header h1, header p, header a {
 .btn {
     margin-top: 150px; /* Увеличь значение, если нужно ниже */
 }
+@media (max-width: 768px) { 
+    header {
+        height: auto; /* Даем возможность адаптироваться */
+        padding: 20px 10px; /* Добавляем отступы */
+        background-size: contain; /* Чтобы фон не обрезался */
+    }
+
+    header h1 {
+        font-size: 36px; /* Уменьшаем размер заголовка */
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 18px; /* Уменьшаем размер подзаголовка */
+        line-height: 1.4; /* Делаем текст читабельнее */
+        padding: 0 15px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+        margin-top: 10px;
+    }
+
+    .header-title {
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+}
